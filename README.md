@@ -21,7 +21,7 @@
 - Rekomendasi Ubuntu 18 
 <br>
 
-# Setting Cloudflare bagi yang punya Domain sendiri, kamu bisa cek di folder [image](https://github.com/givpn/AutoScriptXray/tree/master/image) untuk tampilan setting lainnya
+# Setting Cloudflare bagi yang punya Domain sendiri, kamu bisa cek di folder [image](https://github.com/lesta-2/AutoScriptXray/tree/master/image) untuk tampilan setting lainnya
 <br>
 - SSL/TLS : FULL<br>
 - SSL/TLS Recommender : OFF<br>
@@ -32,7 +32,7 @@
 <br>
 
 # Pointing
-![Pointing](https://raw.githubusercontent.com/givpn/AutoScriptXray/master/image/pointing.png)
+![Pointing](https://raw.githubusercontent.com/lesta-2/AutoScriptXray/master/image/pointing.png)
 
 ## Service & Port:
 <br>
@@ -65,10 +65,10 @@
 - auto backup tidak ada ? ya... dihilangkan permanent
   
 # Menu
-![Service Status](https://raw.githubusercontent.com/givpn/AutoScriptXray/master/image/menu.png)
+![Service Status](https://raw.githubusercontent.com/lesta-2/AutoScriptXray/master/image/menu.png)
 
 # Service Status
-![Service Status](https://raw.githubusercontent.com/givpn/AutoScriptXray/master/image/service.png)
+![Service Status](https://raw.githubusercontent.com/lesta-2/AutoScriptXray/master/image/service.png)
 
 # PERHATIAN perlu masuk sebagai root
 - Step 1
@@ -81,7 +81,7 @@ cd
 ```
 - Step 3 INSTALL, NOTE jika sudah root langsung COPAS link dibawah ini saja ya
 ```
-sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl unzip && wget https://raw.githubusercontent.com/givpn/AutoScriptXray/master/setup.sh && chmod +x setup.sh && sed -i -e 's/\r$//' setup.sh && screen -S setup ./setup.sh
+sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl unzip && wget https://raw.githubusercontent.com/lesta-2/AutoScriptXray/master/setup.sh && chmod +x setup.sh && sed -i -e 's/\r$//' setup.sh && screen -S setup ./setup.sh
 ```
 
 # Buat root di VPS bagi kamu yang login ke server masih menggunakan username yang bukan root
@@ -95,7 +95,7 @@ cd
 ```
 - Step 3
 ```
-apt update && apt install wget -y && wget -qO- -O rootvps.sh https://raw.githubusercontent.com/givpn/rootvps/master/rootvps.sh && bash rootvps.sh
+apt update && apt install wget -y && wget -qO- -O rootvps.sh https://raw.githubusercontent.com/lesta-2/rootvps/master/rootvps.sh && bash rootvps.sh
   
 ```
 
@@ -104,7 +104,7 @@ apt update && apt install wget -y && wget -qO- -O rootvps.sh https://raw.githubu
 [![Telegram-chat](https://img.shields.io/badge/Chat-Telegram-blue)](https://t.me/givpn/)
 [![Telegram-grup](https://img.shields.io/badge/Grup-Telegram-blue)](https://t.me/givpn_grup)
 
-# Belikan saya kopi
+# Belikan beliau kopi
 [![Saweria donate button](https://img.shields.io/badge/Donate-Saweria-red)](https://saweria.co/givpn11)
 [![Ko-fi donate button](https://img.shields.io/badge/Donate-Ko--fi-red)](https://ko-fi.com/givpn11)
 [![PayPal donate button](https://img.shields.io/badge/Donate-PayPal-blue)](https://paypal.me/givpn11)
@@ -121,5 +121,5 @@ apt update && apt install wget -y && wget -qO- -O rootvps.sh https://raw.githubu
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 <p align="center">
-  <a><img src="https://img.shields.io/badge/givpn-AutoScriptXray%202023-blue" style="max-width:200%;">
+  <a><img src="https://img.shields.io/badge/lesta-2-AutoScriptXray%202023-blue" style="max-width:200%;">
     </p>
